@@ -91,6 +91,9 @@ public class Main {
             boolean autorEliminado = autorDao.eliminar(a);
             System.out.println("¿Autor eliminado? " + autorEliminado);
 
+
+            System.out.println("Hola esto es una prueba");
+
         } finally {
             em.close();
         }
